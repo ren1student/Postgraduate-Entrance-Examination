@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>考研信息查询系统</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 自定义CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">考研信息查询</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="schools.html">院校信息</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="majors.html">专业信息</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="guide.html">考研指南</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容区域 -->
+    <div class="container mt-4">
+        <!-- 首页标题 -->
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <h1 class="display-4">考研信息查询系统</h1>
+                <p class="lead text-muted">一站式考研信息服务平台，助你轻松备考</p>
+            </div>
+        </div>
+
+        <!-- 功能卡片 -->
+        <div class="row mb-4">
+            <!-- 院校信息卡片 -->
+            <div class="col-md-4 mb-4"></div>
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <div class="mb-3">
+                            <i class="bi bi-building fs-1 text-primary"></i>
+                        </div>
+                        <h3 class="card-title">院校信息</h3>
+                        <p class="card-text">查询全国各大高校考研相关信息，包括招生人数、录取比例、分数线等。</p>
+                        <a href="schools.html" class="btn btn-primary">查看院校</a>
+                    </div>div>
+                </div>
+            </div>
+            
+            <!-- 专业信息卡片 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <div class="mb-3">
+                            <i class="bi bi-book fs-1 text-success"></i>
+                        </div>
+                        <h3 class="card-title">专业信息</h3>
+                        <p class="card-text">了解各专业考研详细信息，包括考试科目、推荐书籍、就业方向等。</p>
+                        <a href="majors.html" class="btn btn-success">查看专业</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 考研指南卡片 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <div class="mb-3">
+                            <i class="bi bi-lightbulb fs-1 text-info"></i>
+                        </div>
+                        <h3 class="card-title">考研指南</h3>
+                        <p class="card-text">获取考研基础知识、时间规划、复习方法和心理调适等实用建议。</p>
+                        <a href="guide.html" class="btn btn-info">查看指南</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 考研时间线 -->
+        <div class="row mb-4">
+            <div class="col-12"></div>
+                <div class="card">
+                    <div class="card-header bg-light">
+                        <h4 class="mb-0">考研时间线</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="timeline" id="timeline">
+                            <!-- 时间线内容将由JavaScript动态加载 -->
+                            <div class="text-center py-3">
+                                <div class="spinner-border text-primary" role="status">
+                                    <span class="visually-hidden">加载中...</span>
+                                </div>
+                                <p class="mt-3">正在加载考研时间线...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 快速搜索 -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-light">
+                        <h4 class="mb-0">快速搜索</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="quickSearchInput" placeholder="输入院校或专业名称...">
+                                    <button class="btn btn-primary" type="button" id="quickSearchBtn">
+                                        <i class="bi bi-search me-1"></i>搜索
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex flex-wrap">
+                                    <a href="schools.html" class="btn btn-outline-primary me-2 mb-2">热门院校</a>
+                                    <a href="majors.html" class="btn btn-outline-success me-2 mb-2">热门专业</a>
+                                    <a href="guide.html" class="btn btn-outline-info me-2 mb-2">备考指南</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="bg-light text-center text-muted py-3">
+        <div class="container">
+            <p class="mb-0">© 2024 考研信息查询系统 | 仅供参考学习使用</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- 自定义JS -->
+    <script src="js/index.js"></script>
+</body>
+</html>

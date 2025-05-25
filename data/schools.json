@@ -1,0 +1,342 @@
+[
+    {
+        "id": "school-1",
+        "name": "清华大学",
+        "location": "北京",
+        "description": "中国顶尖综合性研究型大学，以工科见长，拥有多个国家重点学科和实验室。",
+        "tags": ["985", "211", "双一流"],
+        "majors": ["计算机科学与技术", "电子工程", "机械工程", "建筑学", "经济管理"],
+        "examSubjects": ["政治", "英语一", "数学一", "专业课"],
+        "enrollmentCount": "约3000人",
+        "admissionRatio": "约10:1",
+        "scoreLines": [
+            {
+                "year": "2023",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "350"
+            },
+            {
+                "year": "2022",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "350"
+            },
+            {
+                "year": "2021",
+                "professional": "90",
+                "english": "55",
+                "politics": "55",
+                "total": "340"
+            }
+        ]
+    },
+    {
+        "id": "school-2",
+        "name": "北京大学",
+        "location": "北京",
+        "description": "中国最著名的综合性大学之一，文理并重，在基础学科领域具有传统优势。",
+        "tags": ["985", "211", "双一流"],
+        "majors": ["中国语言文学", "历史学", "哲学", "数学", "物理学"],
+        "examSubjects": ["政治", "英语一", "专业课一", "专业课二"],
+        "enrollmentCount": "约2800人",
+        "admissionRatio": "约8:1",
+        "scoreLines": [
+            {
+                "year": "2023",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "345"
+            },
+            {
+                "year": "2022",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "345"
+            },
+            {
+                "year": "2021",
+                "professional": "90",
+                "english": "55",
+                "politics": "55",
+                "total": "340"
+            }
+        ]
+    },
+    {
+        "id": "school-3",
+        "name": "复旦大学",
+        "location": "上海",
+        "description": "中国著名综合性研究型大学，在医学、经济学、新闻学等领域具有优势。",
+        "tags": ["985", "211", "双一流"],
+        "majors": ["临床医学", "经济学", "新闻传播学", "国际政治", "数学"],
+        "examSubjects": ["政治", "英语一", "数学三", "专业课"],
+        "enrollmentCount": "约2500人",
+        "admissionRatio": "约7:1",
+        "scoreLines": [
+            {
+                "year": "2023",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "340"
+            },
+            {
+                "year": "2022",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "340"
+            },
+            {
+                "year": "2021",
+                "professional": "90",
+                "english": "55",
+                "politics": "55",
+                "total": "335"
+            }
+        ]
+    },
+    {
+        "id": "school-4",
+        "name": "上海交通大学",
+        "location": "上海",
+        "description": "中国著名工科院校，在工程、医学、管理学等领域具有优势，科研实力雄厚。",
+        "tags": ["985", "211", "双一流"],
+        "majors": ["机械工程", "船舶与海洋工程", "计算机科学与技术", "临床医学", "管理学"],
+        "examSubjects": ["政治", "英语一", "数学一", "专业课"],
+        "enrollmentCount": "约2700人",
+        "admissionRatio": "约8:1",
+        "scoreLines": [
+            {
+                "year": "2023",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "345"
+            },
+            {
+                "year": "2022",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "345"
+            },
+            {
+                "year": "2021",
+                "professional": "90",
+                "english": "55",
+                "politics": "55",
+                "total": "340"
+            }
+        ]
+    },
+    {
+        "id": "school-5",
+        "name": "浙江大学",
+        "location": "浙江",
+        "description": "中国著名综合性研究型大学，学科门类齐全，在工科、农学等领域具有优势。",
+        "tags": ["985", "211", "双一流"],
+        "majors": ["计算机科学与技术", "农业工程", "光学工程", "管理学", "医学"],
+        "examSubjects": ["政治", "英语一", "数学一", "专业课"],
+        "enrollmentCount": "约2600人",
+        "admissionRatio": "约7:1",
+        "scoreLines": [
+            {
+                "year": "2023",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "340"
+            },
+            {
+                "year": "2022",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "340"
+            },
+            {
+                "year": "2021",
+                "professional": "90",
+                "english": "55",
+                "politics": "55",
+                "total": "335"
+            }
+        ]
+    },
+    {
+        "id": "school-6",
+        "name": "南京大学",
+        "location": "江苏",
+        "description": "中国著名综合性大学，文理并重，在天文学、地质学等领域具有传统优势。",
+        "tags": ["985", "211", "双一流"],
+        "majors": ["天文学", "地质学", "中国语言文学", "历史学", "物理学"],
+        "examSubjects": ["政治", "英语一", "专业课一", "专业课二"],
+        "enrollmentCount": "约2200人",
+        "admissionRatio": "约6:1",
+        "scoreLines": [
+            {
+                "year": "2023",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "335"
+            },
+            {
+                "year": "2022",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "335"
+            },
+            {
+                "year": "2021",
+                "professional": "90",
+                "english": "55",
+                "politics": "55",
+                "total": "330"
+            }
+        ]
+    },
+    {
+        "id": "school-7",
+        "name": "武汉大学",
+        "location": "湖北",
+        "description": "中国著名综合性大学，校园环境优美，在法学、测绘、医学等领域具有优势。",
+        "tags": ["985", "211", "双一流"],
+        "majors": ["法学", "测绘科学与技术", "临床医学", "图书馆学", "水利工程"],
+        "examSubjects": ["政治", "英语一", "数学一", "专业课"],
+        "enrollmentCount": "约2300人",
+        "admissionRatio": "约6:1",
+        "scoreLines": [
+            {
+                "year": "2023",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "335"
+            },
+            {
+                "year": "2022",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "335"
+            },
+            {
+                "year": "2021",
+                "professional": "90",
+                "english": "55",
+                "politics": "55",
+                "total": "330"
+            }
+        ]
+    },
+    {
+        "id": "school-8",
+        "name": "中山大学",
+        "location": "广东",
+        "description": "中国南方著名综合性大学，医学、管理学、社会科学等领域实力雄厚。",
+        "tags": ["985", "211", "双一流"],
+        "majors": ["临床医学", "管理学", "社会学", "哲学", "生物学"],
+        "examSubjects": ["政治", "英语一", "专业课一", "专业课二"],
+        "enrollmentCount": "约2100人",
+        "admissionRatio": "约6:1",
+        "scoreLines": [
+            {
+                "year": "2023",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "330"
+            },
+            {
+                "year": "2022",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "330"
+            },
+            {
+                "year": "2021",
+                "professional": "90",
+                "english": "55",
+                "politics": "55",
+                "total": "325"
+            }
+        ]
+    },
+    {
+        "id": "school-9",
+        "name": "四川大学",
+        "location": "四川",
+        "description": "中国西南地区著名综合性大学，医学、材料科学、口腔医学等领域具有优势。",
+        "tags": ["985", "211", "双一流"],
+        "majors": ["口腔医学", "材料科学与工程", "临床医学", "中国语言文学", "生物医学工程"],
+        "examSubjects": ["政治", "英语一", "专业课一", "专业课二"],
+        "enrollmentCount": "约2000人",
+        "admissionRatio": "约5:1",
+        "scoreLines": [
+            {
+                "year": "2023",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "325"
+            },
+            {
+                "year": "2022",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "325"
+            },
+            {
+                "year": "2021",
+                "professional": "90",
+                "english": "55",
+                "politics": "55",
+                "total": "320"
+            }
+        ]
+    },
+    {
+        "id": "school-10",
+        "name": "西安交通大学",
+        "location": "陕西",
+        "description": "中国西北地区著名工科院校，在能源动力、电气工程、管理科学等领域具有优势。",
+        "tags": ["985", "211", "双一流"],
+        "majors": ["能源动力工程", "电气工程", "管理科学与工程", "机械工程", "电子科学与技术"],
+        "examSubjects": ["政治", "英语一", "数学一", "专业课"],
+        "enrollmentCount": "约1900人",
+        "admissionRatio": "约5:1",
+        "scoreLines": [
+            {
+                "year": "2023",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "325"
+            },
+            {
+                "year": "2022",
+                "professional": "90",
+                "english": "60",
+                "politics": "60",
+                "total": "325"
+            },
+            {
+                "year": "2021",
+                "professional": "90",
+                "english": "55",
+                "politics": "55",
+                "total": "320"
+            }
+        ]
+    }
+]
